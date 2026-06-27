@@ -1,0 +1,19 @@
+# Raw honeypot logs — too large for Git
+cowrie.json
+cowrie-full.json
+cowrie-backup.json
+cowrie-geo.json
+*.log
+*.log.*
+
+# SSH keys / secrets — never commit
+*.pem
+*.key
+.env
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
